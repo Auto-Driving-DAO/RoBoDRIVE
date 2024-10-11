@@ -3,9 +3,18 @@
 
 <!-- ## Introduction -->
 
+https://github.com/NVlabs/OmniDrive/assets/74858581/f64987a0-b890-416d-90c1-e0daaeb542d6
 
-We utilize OmniDrive and the initial version of OAT-MTDS, an integrated LLM-Agent framework designed for end-to-end autonomous driving. Our key contributions span both the model (OmniDrive-Agent) and the benchmark (OmniDrive-nuScenes). The OmniDrive-Agent introduces an innovative 3D multimodal LLM architecture, employing sparse queries to elevate and compress visual representations into 3D space. OmniDrive-nuScenes serves as a comprehensive benchmark, incorporating a range of VQA tasks for reasoning and planning. These tasks cover areas such as scene description, traffic regulation interpretation, 3D grounding, counterfactual reasoning, decision-making, and strategic planning.
+We present OmniDrive, a holistic Drive LLM-Agent framework for end-to-end autonomous driving. Our main contributions involve novel solutions in both model (OmniDrive-Agent) and benchmark (OmniDrive-nuScenes). The former features a novel 3D multimodal LLM design that uses sparse queries to lift and compress visual representations into 3D. The latter is constituted of comprehensive VQA tasks for reasoning and planning, including scene description, traffic regulation, 3D grounding, counterfactual reasoning, decision making and planning.
 
+<div align="center">
+<img src="https://github.com/NVlabs/OmniDrive/releases/download/v1.0/teaser.png" width="1000">
+</div>
+
+## News
+- `[2024/07/18]` OmniDrive-nuScenes model release.
+- `[2024/05/02]` OmniDrive-nuScenes dataset release.
+- `[2024/05/02]` [ArXiv](https://arxiv.org/abs/2405.01533) technical report release.
 
 ## Getting Started
 
@@ -48,3 +57,16 @@ Counterfactual Reasoning of Planning Behaviors
 
 <img src="https://github.com/NVlabs/OmniDrive/releases/download/v1.0/demo5.png" width="1000">
 </div>
+
+## Citation
+If this work is helpful for your research, please consider citing:
+
+```
+@article{wang2024omnidrive,
+  title={{OmniDrive}: A Holistic LLM-Agent Framework for Autonomous Driving with 3D Perception, Reasoning and Planning},
+  author={Shihao Wang and Zhiding Yu and Xiaohui Jiang and Shiyi Lan and Min Shi and Nadine Chang and Jan Kautz and Ying Li and Jose M. Alvarez},
+  journal={arXiv:2405.01533},
+  year={2024}
+}
+```
+
